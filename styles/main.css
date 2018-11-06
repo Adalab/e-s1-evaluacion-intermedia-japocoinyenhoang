@@ -1,28 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
-html{
+body{
     font-family: 'Rubik', sans-serif;
     margin:0;
+    background-color: #3CDBC0;
     }
 header{
     position: fixed;
     width: 100%;
-    display: block;
     background: white;
     margin-top:0;
+    text-align: center;
+    padding: 10px 0 13px;
+    left: 0;
+    top:0;
 
 }
 .logo{
     width: 155px;
-    margin-top: 10px;
-    position:50%;
-    text-align: center;
+    margin-bottom: 10px;
+    display: inline-block;
 }
-menu{
-    display:flex;
-    justify-content: space-around;
+.menu{
     text-align: center;
-    margin: 10px 0 13px 0;
-
+    
+}
+.item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    color: #4a4a4a;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 li{
     color:#4a4a4a;
@@ -34,14 +44,18 @@ li{
     margin-right: 20px;
 }
 
-body{
-       background-color: #3CDBC0;
-        width: 100%;
-        height: 100%;
-   
+.headline{
+    height: 100vh ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 }
-h1{
+.headline--text{
     color:#FFFFFF;
     text-align: center;
     font-size: 30px;
+    width: 162px;
+    text-align: center;
+
 }
